@@ -5,7 +5,7 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-IMAGE_PATH = "./dataset/Dataset_pages-to-jpg-0003.jpg"
+IMAGE_PATH = "./dataset/paper-6.png"
 
 image = skimage.io.imread(
     IMAGE_PATH, as_gray=True)
@@ -53,8 +53,5 @@ def hog_demo():
     ax2.set_title('Histogram of Oriented Gradients')
 
 
-# bounding_box_demo()
-
-
-res = pytesseract.image_to_string(Image.open(IMAGE_PATH))
+# res = pytesseract.image_to_string(Image.open(IMAGE_PATH))
 pass
