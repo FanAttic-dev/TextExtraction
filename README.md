@@ -13,5 +13,7 @@ pip install pipenv
 
 pipenv install
 
-
+code .
 ```
+
+Now you should be able to run the notebook in VS Code.
